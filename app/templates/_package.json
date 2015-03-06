@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "description": "<%= pkgDescription %>",
   "dependencies": {
+    "chai": "^2.1.1",
     "grunt-cli": "latest",
     "grunt-coffeelint": "0.0.13",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-coffee": "^0.13.0",
     "grunt-contrib-concat": "^0.5.1",
-    "grunt-contrib-uglify": "^0.8.0"
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.1.0"
   },
   "private": true
 }
