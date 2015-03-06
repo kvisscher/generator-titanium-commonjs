@@ -1,0 +1,14 @@
+{
+  "name": "<%= pkgName %>",
+  "version": "0.1.0",
+  "description": "<%= pkgDescription %>",
+  "dependencies": {
+    "grunt-cli": "latest",
+    "grunt-coffeelint": "0.0.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.8.0"
+  },
+  "private": true
+}

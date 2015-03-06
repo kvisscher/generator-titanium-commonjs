@@ -1,0 +1,13 @@
+{
+  "name": "generator-titanium-commonjs",
+  "version": "0.1.0",
+  "description": "Generator for Titanium commonjs modules",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "main": "app/index.js",
+  "dependencies": {
+    "yeoman-generator": "^0.18.10"
+  },
+  "license": "BSD"
+}
