@@ -1,6 +1,6 @@
 {
   "name": "generator-titanium-commonjs",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Generator for Titanium commonjs modules",
   "keywords": [
     "yeoman-generator"
