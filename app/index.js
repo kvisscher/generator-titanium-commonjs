@@ -1,4 +1,5 @@
-var yeoman = require("yeoman-generator");
+var yeoman = require("yeoman-generator"),
+    uuid = require("uuid");
 
 module.exports = yeoman.generators.Base.extend({
   constructor: function() {
@@ -31,6 +32,7 @@ module.exports = yeoman.generators.Base.extend({
     this.prompt(prompts, function(props) {
       this.pkgName = props.moduleName;
       this.pkgDescription = props.moduleDescription;
+      this.titaniumGuid = uuid.v4();
       
       done();
     }.bind(this));

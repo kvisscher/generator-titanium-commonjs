@@ -11,7 +11,11 @@
     "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-uglify": "^0.8.0",
     "grunt-mocha-test": "^0.12.7",
+    "grunt-titaniumifier": "^1.1.0",
     "mocha": "^2.1.0"
   },
+  "titaniumManifest": {
+    "guid": "<%= titaniumGuid %>"
+  },  
   "private": true
 }

@@ -5,8 +5,13 @@
   "keywords": [
     "yeoman-generator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:kvisscher/generator-titanium-commonjs.git"
+  },
   "main": "app/index.js",
   "dependencies": {
+    "uuid": "^2.0.1",
     "yeoman-generator": "^0.18.10"
   },
   "license": "BSD"

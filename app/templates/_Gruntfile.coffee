@@ -16,6 +16,11 @@ module.exports = (grunt) ->
         dest: "dist/",
         ext: ".js"
         
+    titaniumifier:
+      module:
+        files:
+          ".": "."        
+        
     mochaTest:
       test:
         options:
@@ -32,6 +37,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks("grunt-contrib-concat")
   grunt.loadNpmTasks("grunt-contrib-uglify")
   grunt.loadNpmTasks("grunt-contrib-clean")
+  grunt.loadNpmTasks("grunt-titaniumifier")
   
   grunt.registerTask("default", [ "clean", "coffee" ])
   grunt.registerTask("test", [ "mochaTest" ])
